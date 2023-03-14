@@ -7,3 +7,11 @@
 Arrays
 6. Print 10 Random numbers
 7. Declare int array of 10 cells and insert for each cell Random number. Print the sum of all cells
+8. Declare 2 int Arrays of 100 cells . for first array, insert for each cell Random numbers (10,100).
+put in second array the mult expression of first array in relevant cell index.
+example arr2[4] = arr1[4]*arr1[4], arr2[5] = arr1[5]*arr1[5].
+print all second array
+8. Declare string array of 5 cells. Get 5 strings from user and locate it in relevant cell.
+	print the biggest string. you can get the string length by using the .Length' for example:
+	string str = "aaa";
+	Console.Write(str.Length)// will print 3
