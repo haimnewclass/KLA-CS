@@ -86,7 +86,7 @@ namespace KLA_Console
             /// Random Numbers
             
             Random muku = new Random();
-            int num12 = muku.Next(10, 20);
+            int num12 = muku.Next(int.MinValue, int.MaxValue);
             int num13 = muku.Next(10, 20);
 
             for (int i = 0; i < 100; i++)
@@ -94,16 +94,19 @@ namespace KLA_Console
                 Console.WriteLine(muku.Next(10,100));
             }
 
-            int[] students = new int[30];
-            students[0] = 90;
-            students[1] = 100;
-            students[2] = 30;
-            students[3] = 69;
+            int[] students = new int[10];
+            
+            for (int i = 0; i < students.Length; i++)
+            {
+                students[i] = muku.Next(10,100);
+                Console.WriteLine(students[i]);
+            }
+
+            
             for (int i = 0; i < students.Length; i++)
             {
                 Console.WriteLine(students[i]);
             }
-
 
 
             Console.ReadLine();

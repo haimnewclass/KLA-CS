@@ -11,7 +11,13 @@ Arrays
 put in second array the mult expression of first array in relevant cell index.
 example arr2[4] = arr1[4]*arr1[4], arr2[5] = arr1[5]*arr1[5].
 print all second array
-8. Declare string array of 5 cells. Get 5 strings from user and locate it in relevant cell.
+9. Declare string array of 5 cells. Get 5 strings from user and locate it in relevant cell.
 	print the biggest string. you can get the string length by using the .Length' for example:
 	string str = "aaa";
 	Console.Write(str.Length)// will print 3
+10. Get random number , put it in X variable . Declare int array for X cells.
+Put random numbers for each cell,
+Print array.
+/////////// Home work ////////////////
+11. Continue Ex 10. Replace all array positions as mirror. for eaxmple
+if array has 6 cells [10,3,5,7,23,55] after mirror array will be [55,23,7,5,3,10]
