@@ -27,3 +27,6 @@ if array has 6 cells [10,3,5,7,23,55] after mirror array will be [55,23,7,5,3,10
 // Class 
 13. Create new class Car with following variables int KM, int Id, string Model.
 Define 3 difrant cars like Volvo, Subaro, Fiat
+14. Continue Ex 13 Add new function : void AddKm(int km).
+This function adds the parameter value to KM that in class.
+Add new function bool CheckValidDrive(). This function returns True if this car has not driven more than 1000 km, if it was, returns False
