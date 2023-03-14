@@ -82,6 +82,29 @@ namespace KLA_Console
                 Console.WriteLine(i);
             }
 
+            ///////////////////////////
+            /// Random Numbers
+            
+            Random muku = new Random();
+            int num12 = muku.Next(10, 20);
+            int num13 = muku.Next(10, 20);
+
+            for (int i = 0; i < 100; i++)
+            {
+                Console.WriteLine(muku.Next(10,100));
+            }
+
+            int[] students = new int[30];
+            students[0] = 90;
+            students[1] = 100;
+            students[2] = 30;
+            students[3] = 69;
+            for (int i = 0; i < students.Length; i++)
+            {
+                Console.WriteLine(students[i]);
+            }
+
+
 
             Console.ReadLine();
         }

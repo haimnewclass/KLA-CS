@@ -3,3 +3,7 @@
 3. Get 2 Numbers from user X,Y and print the numbers from X to Y
 4. Get 2 numbers (a,b) from user and get string from user, if a is smaller than b print from a to b the string,else printf from b to a
 5. Get 2 numbers from user print the Big number
+
+Arrays
+6. Print 10 Random numbers
+7. Declare int array of 10 cells and insert for each cell Random number. Print the sum of all cells
