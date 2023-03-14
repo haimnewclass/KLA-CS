@@ -21,3 +21,4 @@ Print array.
 /////////// Home work ////////////////
 11. Continue Ex 10. Replace all array positions as mirror. for eaxmple
 if array has 6 cells [10,3,5,7,23,55] after mirror array will be [55,23,7,5,3,10]
+12. Open youtube https://www.youtube.com/watch?v=MJ1s64F5JYU do all Exes (take one hour)

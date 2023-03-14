@@ -8,11 +8,56 @@ namespace KLA_Console
 {
     internal class Program
     {
-        static void Main2(string[] args)
-        {
-            int a = 9;
-        }
         static void Main(string[] args)
+        {
+            int a = 12;
+            float b = 12.4f;
+            bool c = false;
+            a++;
+
+            Student moshe = new Student(); 
+            moshe.Name = "Moshe Levi";
+            moshe.Id = 132134;
+            moshe.HasCar= true;
+            moshe.Height= 200f;
+
+            moshe.PrintStudentDetails();
+            moshe.PrintStudentDetailsMore();
+
+
+
+            Student avi = new Student();
+            avi.Name = "avi Levi";
+            avi.Id = 2332;
+            avi.HasCar = false;
+            avi.Height = 199f;
+            avi.PrintStudentDetails();
+
+
+
+            Student[] students = new Student[10];
+
+            students[0] = new Student();
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        static void Main2(string[] args)
         {
             Console.WriteLine("");
 
@@ -95,7 +140,7 @@ namespace KLA_Console
             }
 
             int[] students = new int[10];
-            
+            string[] strArr = new string[5];
             for (int i = 0; i < students.Length; i++)
             {
                 students[i] = muku.Next(10,100);
@@ -108,7 +153,50 @@ namespace KLA_Console
                 Console.WriteLine(students[i]);
             }
 
+            // Exc 8
+            int[] arr1 = new int[10];
+            int[] arr2 = new int[arr1.Length];
 
+            for (int i = 0; i < arr1.Length; i++)
+            {
+                arr1[i] = muku.Next(1, 1000);
+            }
+
+            for (int i = 0; i < arr1.Length; i++)
+            {
+                arr2[i] = arr1[i] * arr1[i];
+            }
+
+            for (int i = 0; i < arr2.Length; i++)
+            {
+                Console.WriteLine(arr2[i]);
+            }
+
+            //////
+            /// Exc 9
+            /// 
+
+            string[] strArr1 = new string[5];
+
+            for (int i = 0; i < strArr1.Length; i++)
+            {
+                strArr1[i] = Console.ReadLine();
+            }
+
+            int max = 0;
+            int location=0;
+            for (int i = 0; i < strArr1.Length; i++)
+            {
+                Console.WriteLine(strArr1[i]);
+                Console.WriteLine(strArr1[i].Length);
+                if (strArr1[i].Length>max)
+                {
+                    max = strArr1[i].Length;
+                    location = i;
+                }
+            }
+
+            Console.WriteLine(string.Format("String {0} has {1} chars", strArr1[location], strArr1[location].Length));
             Console.ReadLine();
         }
     }
