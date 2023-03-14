@@ -10,6 +10,45 @@ namespace KLA_Console
     {
         static void Main(string[] args)
         {
+            Car car1 = new Car();
+            car1.Model = "Subaro";
+            car1.Id = 132;
+
+            Car car2 = new Car();
+            car2.Model = "Volvo";
+            car2.Id = 33;
+
+            Car car3 = new Car();
+            car3.Model = "Fiat";
+            car3.Id = 3565;
+
+            car1.AddKm(100);
+            car1.PrintStatus();
+            car1.AddKm(100);
+            car1.PrintStatus();
+            car1.AddKm(400);
+            car1.PrintStatus();
+            car2.AddKm(10);
+            car1.PrintStatus();
+            car1.AddKm(1);
+            if(!car1.CheckValidDrive())
+            {
+                Console.WriteLine("Not Valid");
+            }
+            Random random= new Random();
+            for (int i = 0; i < 10; i++)
+            {
+                car2.AddKm(random.Next(100, 900));
+                if(!car2.CheckValidDrive())
+                {
+                    Console.Write("Not Valid ");
+                    car2.PrintStatus();
+                    
+                }
+            }
+        }
+        static void Main3(string[] args)
+        {
             int a = 12;
             float b = 12.4f;
             bool c = false;
