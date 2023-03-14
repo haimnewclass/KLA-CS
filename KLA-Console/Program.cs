@@ -35,6 +35,7 @@ namespace KLA_Console
 
             int res = num * 22;
 
+            Console.WriteLine(res);
 
             Console.ReadLine();
         }

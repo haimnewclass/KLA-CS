@@ -1,0 +1,1 @@
+﻿1. Get 3 strings from users, convert it to int , print the sum
