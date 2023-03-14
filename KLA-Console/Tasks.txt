@@ -30,3 +30,5 @@ Define 3 difrant cars like Volvo, Subaro, Fiat
 14. Continue Ex 13 Add new function : void AddKm(int km).
 This function adds the parameter value to KM that in class.
 Add new function bool CheckValidDrive(). This function returns True if this car has not driven more than 1000 km, if it was, returns False
+15. Continue Ex 14. From main use the Subaru instance and add Random number KM and call to AddKm function several times with random value
+print if car is valid
