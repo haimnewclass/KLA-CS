@@ -1,1 +1,5 @@
 ﻿1. Get 3 strings from users, convert it to int , print the sum
+2. Get number from user (X)  and print "Shalom" X times
+3. Get 2 Numbers from user X,Y and print the numbers from X to Y
+4. Get 2 numbers (a,b) from user and get string from user, if a is smaller than b print from a to b the string,else printf from b to a
+5. Get 2 numbers from user print the Big number
