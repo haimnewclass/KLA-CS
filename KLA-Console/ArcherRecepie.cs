@@ -11,7 +11,8 @@ namespace KLA_Console
         public string Name;
         public bool Ported;
         public DateTime Date;
-
+        public Test[] testList = new Test[1000];
+        public int testSum = 0;
         public void Run()
         {
 
@@ -20,6 +21,12 @@ namespace KLA_Console
         public void Save()
         {
 
+        }
+
+        public void AddTest(Test newTest)
+        {
+            testList[testSum] = newTest;
+            testSum++;
         }
     }
 }
