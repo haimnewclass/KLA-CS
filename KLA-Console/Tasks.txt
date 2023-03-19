@@ -32,3 +32,9 @@ This function adds the parameter value to KM that in class.
 Add new function bool CheckValidDrive(). This function returns True if this car has not driven more than 1000 km, if it was, returns False
 15. Continue Ex 14. From main use the Subaru instance and add Random number KM and call to AddKm function several times with random value
 print if car is valid
+16. Write Class Recepei with Name,Dete,MachineName fields
+Add function AddTest(Test ) that takes Test object and place in into relevant array
+
+Write class Test with Name,Start Time, End Time, Result
+
+
