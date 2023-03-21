@@ -38,3 +38,5 @@ Add function AddTest(Test ) that takes Test object and place in into relevant ar
 Write class Test with Name,Start Time, End Time, Result
 
 
+// Lesson 2
+1. Create class Item with relevant Properties

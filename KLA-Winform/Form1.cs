@@ -6,5 +6,12 @@ namespace KLA_Winform
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            KLA2.Editor editor = new KLA2.Editor();
+
+            //textBox1.Text = editor.Print("from win");
+        }
     }
 }

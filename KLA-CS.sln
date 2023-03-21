@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLA-Winform", "KLA-Winform\
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "KLA-Web", "KLA-Web\KLA-Web.fsproj", "{B3CF0694-774A-42B7-B129-D09F2FEA4A64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prepare", "Prepare\Prepare.csproj", "{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prepare", "Prepare\Prepare.csproj", "{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLA2", "KLA2\KLA2.csproj", "{14F5F66E-128F-480C-8B03-F85002E756F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLA3", "KLA3\KLA3.csproj", "{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F5F66E-128F-480C-8B03-F85002E756F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F5F66E-128F-480C-8B03-F85002E756F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F5F66E-128F-480C-8B03-F85002E756F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F5F66E-128F-480C-8B03-F85002E756F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
