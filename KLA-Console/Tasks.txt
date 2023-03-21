@@ -58,5 +58,9 @@ https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/StaticSample.cs
 
 // Emploee
 1. Create class for Employee Taz,Name,EmpId
-2. Create Manager Class that holds Employee array
-3. 
+EmpId ist unique number between 1 to 999
+2. Create Manager Class that holds Employee array for 1000 cells
+3. In Manager class add Employee CreateEmployee(Taz,Name,EmpId)
+this function create new instance of Employee object, fill relevant details ant return Employee
+4. In Manager class add new function AddEmp(Employee emp), this function places the
+new Emp in relevant location in array
