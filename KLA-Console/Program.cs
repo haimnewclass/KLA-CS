@@ -10,6 +10,54 @@ namespace KLA_Console
     {
         static void Main(string[] args)
         {
+            int a = 12;
+            int? b = null;
+
+            int g = b == null ? 1 : 2;
+
+          
+        
+
+            ArcherRecepieEditor archerRecepieEditor = new ArcherRecepieEditor();
+
+            ArcherRecepie recepie1 = new ArcherRecepie();
+            recepie1.Name = "Intel1";
+            recepie1.Ported = true;
+            recepie1.Date = DateTime.Now;
+
+            ArcherRecepie recepie2 = new ArcherRecepie();
+            recepie2.Name = "AMD2";
+            recepie2.Ported = false;
+            recepie2.Date = DateTime.Now;
+
+            archerRecepieEditor.Add(recepie1);
+            archerRecepieEditor.Add(recepie2);
+
+
+
+
+
+
+
+
+
+            Item i1 = new Item();
+            i1.Barcode = 111;
+            i1.Name = "Banana";
+            i1.Price = 9;
+
+            Item i2 = new Item();
+            i2.Barcode = 222;
+            i2.Name = "Apple";
+            i2.Price = 10;
+
+            string str1 = i1.Description();
+            Console.WriteLine(i1.Haim(2));
+            Console.WriteLine(str1);
+            Console.WriteLine(i2.Description()); ;
+
+
+
             Car car1 = new Car();
             car1.Model = "Subaro";
             car1.Id = 132;
