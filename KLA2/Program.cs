@@ -2,8 +2,20 @@
 using KLA2;
 using System.Collections.Generic;
 
+
+Collections collections = new Collections();
+collections.Run();
 KLA2.A.Manager manager = new KLA2.A.Manager();
-KLA2.A.Employee emp = manager.CreateEmployee(122, "aaaa", 10);
+
+KLA2.A.Employee emp = manager.CreateEmployee(24352454, "Avi", 10);
+manager.AddEmp(emp);
+emp = manager.CreateEmployee(345345345, "Moshe", 99);
+manager.AddEmp(emp);
+emp = manager.CreateEmployee(22222222, "Yossi", 111);
+manager.AddEmp(emp);
+emp = manager.CreateEmployee(121112212, "Sami", 112);
+manager.AddEmp(emp);
+emp = manager.CreateEmployee(454454545, "Rafi", 7);
 manager.AddEmp(emp);
 
 
@@ -19,9 +31,7 @@ manager.AddEmp(emp);
 
 
 
-Manager manager = new();
-manager.Run();
-BeerCup beerCup = new BeerCup();
+ BeerCup beerCup = new BeerCup();
 CoffeeCup coffeeCup = new CoffeeCup();
 BaseCup baseCup = new BaseCup();
 coffeeCup.Color = "BLACK";

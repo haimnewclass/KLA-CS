@@ -12,6 +12,8 @@ namespace KLA2.A
         public string Name { get;set; }
         public int EmpId { get; set; }
 
+        public Guid UUID { get; set; }
+
     }
 
     public class Manager
@@ -19,7 +21,8 @@ namespace KLA2.A
        
         
          
-       
+        public Dictionary<int, Employee> list2 = new Dictionary<int, Employee>();
+
         public Employee[] list = new Employee[1000];
         public Employee CreateEmployee(int Taz, string Name,int EmpId)
         {
@@ -35,11 +38,16 @@ namespace KLA2.A
         public void AddEmp(Employee emp)
         {
             list[emp.EmpId] = emp;
+           // list2[emp.Taz] = emp;
+            list2.Add(emp.EmpId, emp);
+           
+            
         }
 
         public void RemoveEmp(Employee emp)
         {
             list[emp.EmpId] = null;
+            list2[emp.Taz] = null;
         }
     }
 
