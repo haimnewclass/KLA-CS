@@ -50,8 +50,13 @@ https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/Student.cs
 see nullable sample:
 https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/Program.cs
 line: int? StudentCount;
-4.Add function int Purchace(int count)  that returns  count*price for relevant item
+4.Add function float Purchace(int count)  that returns  count*price for relevant item
 5. Add static variable int ItemsPurchased that counts all purahces for all items
 use static
 https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/StaticSample.cs
 6. Use properties mechanism for preventing set the Code variable more then 3 times
+
+// Emploee
+1. Create class for Employee Taz,Name,EmpId
+2. Create Manager Class that holds Employee array
+3. 

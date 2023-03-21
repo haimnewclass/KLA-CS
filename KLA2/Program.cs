@@ -1,6 +1,39 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using KLA2;
 
+Manager manager = new();
+manager.Run();
+BeerCup beerCup = new BeerCup();
+CoffeeCup coffeeCup = new CoffeeCup();
+BaseCup baseCup = new BaseCup();
+coffeeCup.Color = "BLACK";
+coffeeCup.Capacity = 200;
+coffeeCup.HasPlatte= true;
+
+baseCup = coffeeCup;
+string color = baseCup.Color;
+baseCup.Color = "RED";
+
+object o = coffeeCup;
+object o1 = beerCup;
+
+System.Collections.ArrayList arrayList = new System.Collections.ArrayList();
+
+
+
+Item i1 = new Item("134535435635623");
+i1.Price = 10;
+i1.Name = "Cola";
+i1.CountInStock = 100;
+
+Item i2 = new Item("456");
+i2.Price = 20;
+i2.Name = "Bisli";
+i2.CountInStock = 100;
+
+i1.Purchase(10);
+i2.Purchase(20);
+
 StaticSample staticSample1 = new StaticSample();
 StaticSample staticSample2 = new StaticSample();
 staticSample1.Id= 1;
