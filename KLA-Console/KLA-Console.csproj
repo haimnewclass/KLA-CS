@@ -58,5 +58,11 @@
   <ItemGroup>
     <Content Include="Tasks.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Prepare\Prepare.csproj">
+      <Project>{dc1e4c8a-19f3-401c-abd2-dbe52c83c260}</Project>
+      <Name>Prepare</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

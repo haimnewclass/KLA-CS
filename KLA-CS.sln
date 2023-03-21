@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLA-Console", "KLA-Console\KLA-Console.csproj", "{00C26758-EB5E-43D7-97E4-1D1D490F495B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLA-Winform", "KLA-Winform\KLA-Winform.csproj", "{E98E52F2-1D6E-4609-9B53-F12481260C88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLA-Winform", "KLA-Winform\KLA-Winform.csproj", "{E98E52F2-1D6E-4609-9B53-F12481260C88}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "KLA-Web", "KLA-Web\KLA-Web.fsproj", "{B3CF0694-774A-42B7-B129-D09F2FEA4A64}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "KLA-Web", "KLA-Web\KLA-Web.fsproj", "{B3CF0694-774A-42B7-B129-D09F2FEA4A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prepare", "Prepare\Prepare.csproj", "{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B3CF0694-774A-42B7-B129-D09F2FEA4A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3CF0694-774A-42B7-B129-D09F2FEA4A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3CF0694-774A-42B7-B129-D09F2FEA4A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,6 +10,13 @@ namespace KLA_Console
     {
         static void Main(string[] args)
         {
+            int a = 12;
+            int? b = null;
+
+            int g = b == null ? 1 : 2;
+
+          
+        
 
             ArcherRecepieEditor archerRecepieEditor = new ArcherRecepieEditor();
 
