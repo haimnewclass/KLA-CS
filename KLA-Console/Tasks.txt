@@ -41,6 +41,9 @@ Write class Test with Name,Start Time, End Time, Result
 // Lesson 2
 1. Create class Item with relevant Properties (not variables)
 price, name, countInStock, Code
+see properties sample:
+https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/PropSample.cs
 2. Add to constractor the Code, because its immpossible to create instance with out code
 see constractor sample
 https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/Student.cs
+3.
