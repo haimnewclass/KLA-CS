@@ -1,5 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using KLA2;
+using System.Collections.Generic;
+
+KLA2.A.Manager manager = new KLA2.A.Manager();
+KLA2.A.Employee emp = manager.CreateEmployee(122, "aaaa", 10);
+manager.AddEmp(emp);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Manager manager = new();
 manager.Run();
