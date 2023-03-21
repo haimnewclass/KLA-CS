@@ -8,6 +8,9 @@ namespace KLA2
 {
     internal class Student
     {
+
+        public string Code { get; set; }
+
         public Student(int id)
         {
             Id = id;

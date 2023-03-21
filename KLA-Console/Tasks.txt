@@ -46,4 +46,12 @@ https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/PropSample.cs
 2. Add to constractor the Code, because its immpossible to create instance with out code
 see constractor sample
 https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/Student.cs
-3.
+3.The price property should be nullable
+see nullable sample:
+https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/Program.cs
+line: int? StudentCount;
+4.Add function int Purchace(int count)  that returns  count*price for relevant item
+5. Add static variable int ItemsPurchased that counts all purahces for all items
+use static
+https://github.com/haimnewclass/KLA-CS/blob/master/KLA2/StaticSample.cs
+6. Use properties mechanism for preventing set the Code variable more then 3 times
