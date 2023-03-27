@@ -1,0 +1,4 @@
+﻿Math,The mathematics major has two tracks the Bachelor of Arts BA and the Bachelor of Science,3
+Biology,The goal for students who pursue a biology BA is to cultivate a broad multi-disciplinary understanding of life science while still gaining exposure to the arts and humanities,4
+DataAnalyst,We will not leave you alone with code  theory and platform bugs  You will be led through every stage of the course by trained industry professionals,2
+Financial,Learn financial accounting how to read financial statements and how to gather inputs to valuation models,3

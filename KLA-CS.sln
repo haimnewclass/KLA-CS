@@ -11,9 +11,18 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "KLA-Web", "KLA-Web\KLA-Web.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prepare", "Prepare\Prepare.csproj", "{DC1E4C8A-19F3-401C-ABD2-DBE52C83C260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLA2", "KLA2\KLA2.csproj", "{14F5F66E-128F-480C-8B03-F85002E756F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLA2", "KLA2\KLA2.csproj", "{14F5F66E-128F-480C-8B03-F85002E756F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLA3", "KLA3\KLA3.csproj", "{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLA3", "KLA3\KLA3.csproj", "{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLA4-InpuitDataFromUser", "KLA4-InpuitDataFromUser\KLA4-InpuitDataFromUser.csproj", "{9D14BCC6-7A15-4C82-858C-21D4EAFD493F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{600B04A4-1EFF-4A36-82FB-F4743B07A5AB}"
+	ProjectSection(SolutionItems) = preProject
+		Students.txt = Students.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityProject", "UniversityProject\UniversityProject.csproj", "{06DF632E-051A-4078-9382-CFF3319BFFF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +54,14 @@ Global
 		{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{317377D3-F9D4-4DD9-9200-FFE2C6F3184F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D14BCC6-7A15-4C82-858C-21D4EAFD493F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D14BCC6-7A15-4C82-858C-21D4EAFD493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D14BCC6-7A15-4C82-858C-21D4EAFD493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D14BCC6-7A15-4C82-858C-21D4EAFD493F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DF632E-051A-4078-9382-CFF3319BFFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DF632E-051A-4078-9382-CFF3319BFFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DF632E-051A-4078-9382-CFF3319BFFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DF632E-051A-4078-9382-CFF3319BFFF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
