@@ -1,11 +1,24 @@
 ﻿1. Define Interface for ICalulateTax with following function
 int AddTax(int itemPrice)
 2. The function calculate the tax
-3. Create class EilatPrice that implement ICalulateTax, the function AddTax returns item price with 0 percent for item
-4. Create class PituachAreaPrice that implement ICalulateTax interface, the function AddTax returns item price with 5 percent for item
-5. Create class OtherPrice that implement ICalulateTax interface, the function AddTax returns item price with 17 percent for item
+3. Create class EilatPrice that implements ICalulateTax, the function AddTax returns item price with 0 percent for item
+4. Create class PituachAreaPrice that implements ICalulateTax interface, the function AddTax returns item price with 5 percent for item
+5. Create class OtherPrice that implements ICalulateTax interface, the function AddTax returns item price with 17 percent for item
 6. Create PurchaseItem class with following function
 6.1 Constractor(ICalulateTax calcMothod) , save this value in relevant property
 6.2 PrintPrice(int price) 
 6. From program get from user item price and area code (1 for Eilat. 2 for PituachArea 3 for Other)
 calculate the price according to relevant class implementation
+
+////////
+
+
+Create a C# program that implements an abstract class Animal that has a Name property of type text and three methods SetName (string name), GetName and Eat.
+The Eat method will be an abstract method of type void.
+
+You will also need to create a Dog class that implements the above Animal class and the Eat method that print "Bone is eatten 5 times".
+You will also need to create a Bird class that implements the above Animal class and the Eat method that print "Bread is eatten" 1 time.
+
+
+To test the program ask the user for a dog name and create a new Dog type object from the Main of the program, give the Dog object a name, and then execute the GetName and Eat methods.
+same to Bird class
