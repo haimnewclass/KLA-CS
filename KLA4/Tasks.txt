@@ -1,0 +1,7 @@
+﻿1. Define Interface for ICalulateTax with following function
+int AddTax(int itemPrice)
+2. The function calculate the tax
+3. Create class EilatPrice that implement ICalulateTax, the function AddTax returns item price with 0 percent for item
+4. Create class PituachAreaPrice that implement ICalulateTax, the function AddTax returns item price with 5 percent for item
+5. Create class Other that implement ICalulateTax, the function AddTax returns item price with 17 percent for item
+6. 
