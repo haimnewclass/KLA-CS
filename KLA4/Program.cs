@@ -1,6 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using KLA4;
 
+
+InheritenceList inheritenceList = new InheritenceList();
+inheritenceList.Add("111111");
+inheritenceList.Add("222222");
+inheritenceList.Add("666666");
+int len = inheritenceList.Length;
+
+
 PriceCalculate priceCalculate = new PriceCalculate();
 priceCalculate.Run();
 

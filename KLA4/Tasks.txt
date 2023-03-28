@@ -12,6 +12,13 @@ calculate the price according to relevant class implementation
 
 ////////
 
+Project References
+1. Create ClassLibrary project
+2. Add class with function string CombineString(string str1, string str2) 
+that combited 2 strings to one string and retern it
+3. Create Windows Form Application
+by 
+
 
 Create a C# program that implements an abstract class Animal that has a Name property of type text and three methods SetName (string name), GetName and Eat.
 The Eat method will be an abstract method of type void.
@@ -22,3 +29,5 @@ You will also need to create a Bird class that implements the above Animal class
 
 To test the program ask the user for a dog name and create a new Dog type object from the Main of the program, give the Dog object a name, and then execute the GetName and Eat methods.
 same to Bird class
+
+/////////
