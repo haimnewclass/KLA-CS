@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using KLA4;
+using KLA4.Abs;
 
+AbstractClass abstractClass = new AbstractClass();
+abstractClass.Run();
 
 InheritenceList inheritenceList = new InheritenceList();
 inheritenceList.Add("111111");
