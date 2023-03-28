@@ -14,10 +14,13 @@ calculate the price according to relevant class implementation
 
 Project References
 1. Create ClassLibrary project
-2. Add class with function string CombineString(string str1, string str2) 
+2. Add class UtilityStrings with function string CombineString(string str1, string str2) 
 that combited 2 strings to one string and retern it
 3. Create Windows Form Application
-by 
+by Tool box drag button to form and do double click to implement function
+(see https://github.com/haimnewclass/KLA-CS/blob/master/KLA4/Images/W.bmp)
+add reference the ClassLibrary you created and use the UtilityStrings
+use CombineString function
 
 
 Create a C# program that implements an abstract class Animal that has a Name property of type text and three methods SetName (string name), GetName and Eat.
