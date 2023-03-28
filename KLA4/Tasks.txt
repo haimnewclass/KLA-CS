@@ -2,6 +2,10 @@
 int AddTax(int itemPrice)
 2. The function calculate the tax
 3. Create class EilatPrice that implement ICalulateTax, the function AddTax returns item price with 0 percent for item
-4. Create class PituachAreaPrice that implement ICalulateTax, the function AddTax returns item price with 5 percent for item
-5. Create class Other that implement ICalulateTax, the function AddTax returns item price with 17 percent for item
-6. 
+4. Create class PituachAreaPrice that implement ICalulateTax interface, the function AddTax returns item price with 5 percent for item
+5. Create class OtherPrice that implement ICalulateTax interface, the function AddTax returns item price with 17 percent for item
+6. Create PurchaseItem class with following function
+6.1 Constractor(ICalulateTax calcMothod) , save this value in relevant property
+6.2 PrintPrice(int price) 
+6. From program get from user item price and area code (1 for Eilat. 2 for PituachArea 3 for Other)
+calculate the price according to relevant class implementation
